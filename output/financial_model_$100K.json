@@ -1,0 +1,281 @@
+{
+  "tier_name": "$100K",
+  "assumptions": {
+    "tier": "Startup",
+    "annual_revenue_target": 100000,
+    "avg_production_contract": 8000,
+    "production_projects_y1": 7,
+    "production_direct_cost_pct": 0.5,
+    "avg_monthly_marketing_retainer": 2500,
+    "marketing_clients_y1": 1,
+    "avg_media_deployment_fee": 1500,
+    "media_projects_y1": 6,
+    "annual_payroll": 25000,
+    "annual_overhead": 15000,
+    "year_2_growth": 0.5,
+    "year_3_growth": 0.4
+  },
+  "production_pl": {
+    "Division": "Production",
+    "Year_1": {
+      "Revenue": 56000,
+      "COGS": 28000.0,
+      "Gross_Profit": 28000.0,
+      "Gross_Margin": 0.5
+    },
+    "Year_2": {
+      "Revenue": 84000.0,
+      "COGS": 42000.0,
+      "Gross_Profit": 42000.0,
+      "Gross_Margin": 0.5
+    },
+    "Year_3": {
+      "Revenue": 117599.99999999999,
+      "COGS": 58799.99999999999,
+      "Gross_Profit": 58799.99999999999,
+      "Gross_Margin": 0.5
+    }
+  },
+  "marketing_pl": {
+    "Division": "Marketing",
+    "Year_1": {
+      "Revenue": 30000,
+      "COGS": 7500.0,
+      "Gross_Profit": 22500.0,
+      "Gross_Margin": 0.75
+    },
+    "Year_2": {
+      "Revenue": 45000.0,
+      "COGS": 11250.0,
+      "Gross_Profit": 33750.0,
+      "Gross_Margin": 0.75
+    },
+    "Year_3": {
+      "Revenue": 62999.99999999999,
+      "COGS": 15749.999999999998,
+      "Gross_Profit": 47249.99999999999,
+      "Gross_Margin": 0.75
+    }
+  },
+  "media_pl": {
+    "Division": "Media/Distribution",
+    "Year_1": {
+      "Revenue": 9000,
+      "COGS": 1350.0,
+      "Gross_Profit": 7650.0,
+      "Gross_Margin": 0.85
+    },
+    "Year_2": {
+      "Revenue": 13500.0,
+      "COGS": 2025.0,
+      "Gross_Profit": 11475.0,
+      "Gross_Margin": 0.85
+    },
+    "Year_3": {
+      "Revenue": 18900.0,
+      "COGS": 2835.0,
+      "Gross_Profit": 16065.0,
+      "Gross_Margin": 0.85
+    }
+  },
+  "consolidated_pl": {
+    "Division": "Consolidated",
+    "Year_1": {
+      "Revenue": 95000,
+      "COGS": 36850.0,
+      "Gross_Profit": 58150.0,
+      "Gross_Margin": 0.6121052631578947,
+      "Payroll": 25000,
+      "Overhead": 15000,
+      "Operating_Expenses": 40000,
+      "Operating_Income": 18150.0,
+      "Operating_Margin": 0.19105263157894736,
+      "EBITDA": 18150.0,
+      "EBITDA_Margin": 0.19105263157894736
+    },
+    "Year_2": {
+      "Revenue": 142500.0,
+      "COGS": 55275.0,
+      "Gross_Profit": 87225.0,
+      "Gross_Margin": 0.6121052631578947,
+      "Payroll": 35000.0,
+      "Overhead": 19500.0,
+      "Operating_Expenses": 54500.0,
+      "Operating_Income": 32725.0,
+      "Operating_Margin": 0.22964912280701755,
+      "EBITDA": 32725.0,
+      "EBITDA_Margin": 0.22964912280701755
+    },
+    "Year_3": {
+      "Revenue": 199499.99999999997,
+      "COGS": 77384.99999999999,
+      "Gross_Profit": 122114.99999999999,
+      "Gross_Margin": 0.6121052631578947,
+      "Payroll": 46200.0,
+      "Overhead": 24180.0,
+      "Operating_Expenses": 70380.0,
+      "Operating_Income": 51734.999999999985,
+      "Operating_Margin": 0.2593233082706767,
+      "EBITDA": 51734.999999999985,
+      "EBITDA_Margin": 0.2593233082706767
+    }
+  },
+  "cash_flow": {
+    "Year_1_Quarterly": {
+      "Q1": {
+        "Revenue": 19000.0,
+        "Operating_Cash_Flow": 3630.0,
+        "Cumulative_Cash": 3630.0
+      },
+      "Q2": {
+        "Revenue": 21850.0,
+        "Operating_Cash_Flow": 4174.5,
+        "Cumulative_Cash": 7804.5
+      },
+      "Q3": {
+        "Revenue": 25650.0,
+        "Operating_Cash_Flow": 4900.5,
+        "Cumulative_Cash": 12705.0
+      },
+      "Q4": {
+        "Revenue": 28500.0,
+        "Operating_Cash_Flow": 5445.0,
+        "Cumulative_Cash": 18150.0
+      }
+    },
+    "Annual": {
+      "Year_1": 18150.0,
+      "Year_2": 32725.0,
+      "Year_3": 51734.999999999985
+    }
+  },
+  "scenarios": {
+    "Conservative": {
+      "Division": "Consolidated",
+      "Year_1": {
+        "Revenue": 76000.0,
+        "COGS": 29480.0,
+        "Gross_Profit": 46520.0,
+        "Gross_Margin": 0.6121052631578947,
+        "Payroll": 25000,
+        "Overhead": 15000,
+        "Operating_Expenses": 40000,
+        "Operating_Income": 6520.0,
+        "Operating_Margin": 0.08578947368421053,
+        "EBITDA": 18150.0,
+        "EBITDA_Margin": 0.19105263157894736
+      },
+      "Year_2": {
+        "Revenue": 114000.0,
+        "COGS": 44220.0,
+        "Gross_Profit": 69780.0,
+        "Gross_Margin": 0.6121052631578947,
+        "Payroll": 35000.0,
+        "Overhead": 19500.0,
+        "Operating_Expenses": 54500.0,
+        "Operating_Income": 15280.0,
+        "Operating_Margin": 0.13403508771929826,
+        "EBITDA": 32725.0,
+        "EBITDA_Margin": 0.22964912280701755
+      },
+      "Year_3": {
+        "Revenue": 159600.0,
+        "COGS": 61907.99999999999,
+        "Gross_Profit": 97692.0,
+        "Gross_Margin": 0.6121052631578947,
+        "Payroll": 46200.0,
+        "Overhead": 24180.0,
+        "Operating_Expenses": 70380.0,
+        "Operating_Income": 27312.0,
+        "Operating_Margin": 0.17112781954887218,
+        "EBITDA": 51734.999999999985,
+        "EBITDA_Margin": 0.2593233082706767
+      }
+    },
+    "Target": {
+      "Division": "Consolidated",
+      "Year_1": {
+        "Revenue": 95000,
+        "COGS": 36850.0,
+        "Gross_Profit": 58150.0,
+        "Gross_Margin": 0.6121052631578947,
+        "Payroll": 25000,
+        "Overhead": 15000,
+        "Operating_Expenses": 40000,
+        "Operating_Income": 18150.0,
+        "Operating_Margin": 0.19105263157894736,
+        "EBITDA": 18150.0,
+        "EBITDA_Margin": 0.19105263157894736
+      },
+      "Year_2": {
+        "Revenue": 142500.0,
+        "COGS": 55275.0,
+        "Gross_Profit": 87225.0,
+        "Gross_Margin": 0.6121052631578947,
+        "Payroll": 35000.0,
+        "Overhead": 19500.0,
+        "Operating_Expenses": 54500.0,
+        "Operating_Income": 32725.0,
+        "Operating_Margin": 0.22964912280701755,
+        "EBITDA": 32725.0,
+        "EBITDA_Margin": 0.22964912280701755
+      },
+      "Year_3": {
+        "Revenue": 199499.99999999997,
+        "COGS": 77384.99999999999,
+        "Gross_Profit": 122114.99999999999,
+        "Gross_Margin": 0.6121052631578947,
+        "Payroll": 46200.0,
+        "Overhead": 24180.0,
+        "Operating_Expenses": 70380.0,
+        "Operating_Income": 51734.999999999985,
+        "Operating_Margin": 0.2593233082706767,
+        "EBITDA": 51734.999999999985,
+        "EBITDA_Margin": 0.2593233082706767
+      }
+    },
+    "Upside": {
+      "Division": "Consolidated",
+      "Year_1": {
+        "Revenue": 123500.0,
+        "COGS": 47905.0,
+        "Gross_Profit": 75595.0,
+        "Gross_Margin": 0.6121052631578947,
+        "Payroll": 25000,
+        "Overhead": 15000,
+        "Operating_Expenses": 44000.0,
+        "Operating_Income": 31595.0,
+        "Operating_Margin": 0.25582995951417004,
+        "EBITDA": 18150.0,
+        "EBITDA_Margin": 0.19105263157894736
+      },
+      "Year_2": {
+        "Revenue": 185250.0,
+        "COGS": 71857.5,
+        "Gross_Profit": 113392.5,
+        "Gross_Margin": 0.6121052631578947,
+        "Payroll": 35000.0,
+        "Overhead": 19500.0,
+        "Operating_Expenses": 59950.00000000001,
+        "Operating_Income": 53442.49999999999,
+        "Operating_Margin": 0.2884885290148448,
+        "EBITDA": 32725.0,
+        "EBITDA_Margin": 0.22964912280701755
+      },
+      "Year_3": {
+        "Revenue": 259349.99999999997,
+        "COGS": 100600.49999999999,
+        "Gross_Profit": 158749.5,
+        "Gross_Margin": 0.6121052631578947,
+        "Payroll": 46200.0,
+        "Overhead": 24180.0,
+        "Operating_Expenses": 77418.0,
+        "Operating_Income": 81331.5,
+        "Operating_Margin": 0.3135974551764026,
+        "EBITDA": 51734.999999999985,
+        "EBITDA_Margin": 0.2593233082706767
+      }
+    }
+  },
+  "generated_at": "2026-07-25T02:58:31.564625"
+}
